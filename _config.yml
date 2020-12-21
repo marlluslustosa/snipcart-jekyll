@@ -21,7 +21,7 @@
 title: Lojinha do Lulu
 email: marlluslustosa@riseup.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Loja virtual referente ao produtos relatados em Lulu Space
+  Loja virtual referente aos produtos relatados em Lulu Space
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lojinha.marllus.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: melolustosa
