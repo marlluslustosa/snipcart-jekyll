@@ -9,7 +9,7 @@
     data-item-price="{{ product.price }}"
     data-item-image="{{ product.image }}"
     data-item-url="https://lojinha.marllus.com{{ page.url }}"
-    data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}"
+    data-item-description="{{ product.descricao_link | remove: '<p>' | remove: '</p>' }}"
     data-item-custom1-name="Frame color"
     data-item-custom1-options="Black|Brown|Gold[+300.00]">
     Comprar 1 obra física (${{ product.price }})
@@ -26,7 +26,7 @@
   data-item-price="{{ product.price | minus: 20 }}"
   data-item-image="{{ product.image }}"
   data-item-url="https://lojinha.marllus.com{{ page.url }}"
-  data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+  data-item-description="{{ product.descricao_link | remove: '<p>' | remove: '</p>' }}">
   Comprar obra digital (PNG) (${{ product.price | minus: 20 }})
 </button>
 {% endif %}
