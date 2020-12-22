@@ -1,8 +1,8 @@
 ---
-identifier: RZ-SN
-name: Cabeça de homem
+identifier: GL-MN
+name: Um galo no jardim de Monet
 price: 79.95
-image: assets/images/starry-night.jpg
+image: https://marllus.com/assets/images/galo-monet.jpeg
 file_guid: 09e589c7-3d18-4c2e-9cee-4f447e9f054a1
 descricao_link: Série 'Sob a ótica'. Descrição em Lulu Space e Exposição em Museu de arte da UFC
 ---
