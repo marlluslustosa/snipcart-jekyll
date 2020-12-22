@@ -1,7 +1,7 @@
 ---
 identifier: RZ-SN
 name: Gato na noite de Van Gogh
-price: 79.95
+price: 1.00
 image: https://marllus.com/assets/images/gato-gogh.jpg
 file_guid: 09e589c7-3d18-4c2e-9cee-e4f447e9f054a
 descricao_link: Série 'Sob a ótica'. Descrição em Lulu Space e Exposição em Museu de arte da UFC
