@@ -1,7 +1,7 @@
 ---
 identifier: CH-PI
 name: Cabeça de homem sob Picasso
-price: 79.95
+price: 800
 image: https://marllus.com/assets/images/cela-picasso.jpeg
 file_guid: 1010c58e-053c-4d79-96ea-5aa4a889021d
 descricao_link: Série 'Sob a ótica'. Descrição em Lulu Space e Exposição em Museu de arte da UFC

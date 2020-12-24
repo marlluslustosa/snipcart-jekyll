@@ -1,7 +1,7 @@
 ---
 identifier: GL-MN
 name: Um galo no jardim de Monet
-price: 79.95
+price: 800
 image: https://marllus.com/assets/images/galo-monet.jpeg
 file_guid: b20bb127-6af3-47d3-a5e9-563091d295f6
 descricao_link: Série 'Sob a ótica'. Descrição em Lulu Space e Exposição em Museu de arte da UFC
