@@ -25,11 +25,11 @@
   data-item-id="{{ product.identifier }}-DIGITAL"
   data-item-file-guid="{{ product.file_guid }}"
   data-item-name="{{ product.name}} - Digital copy (PNG)"
-  data-item-price="{{ product.price | minus: 100 }}"
+  data-item-price="{{ product.price | divided_by: 1.5 | floor }}"
   data-item-image="{{ product.image }}"
   data-item-url="https://lojinha.marllus.com{{ page.url }}"
   data-item-description="{{ product.descricao_link | remove: '<p>' | remove: '</p>' }}">
-  Comprar obra digital (PNG) (${{ product.price | minus: 100 }})
+  Comprar obra digital (PNG) (${{ product.price | divided_by: 1.5 | floor }})
 </button>
 {% endif %}
 
