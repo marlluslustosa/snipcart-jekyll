@@ -14,7 +14,7 @@
     data-item-custom1-type="checkbox"
     data-item-custom2-name="Mensagem para cartão presente"
     data-item-custom2-type="textarea">
-    Comprar 1 obra física (${{ product.price }})
+    Comprar 1 obra física (R${{ product.price }})
   </button>
 </div>
 
@@ -29,7 +29,7 @@
   data-item-image="{{ product.image }}"
   data-item-url="https://lojinha.marllus.com{{ page.url }}"
   data-item-description="{{ product.descricao_link | remove: '<p>' | remove: '</p>' }}">
-  Comprar obra digital (PNG) (${{ product.price | divided_by: 1.5 | floor }})
+  Comprar obra digital (PNG) (R${{ product.price | divided_by: 1.5 | floor }})
 </button>
 {% endif %}
 
