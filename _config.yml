@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 description_en: >- # this means to ignore newlines until "baseurl:"
   Virtual store of Lulu Space
 baseurl: "" # the subpath of your site, e.g. /blog
+baseurl_en: "/en"
 url: "https://lojinha.marllus.com/" # the base hostname & protocol for your site, e.g. http://example.com
 defaults:
   # Default language
