@@ -56,3 +56,10 @@
 </button>
 {% endif %}
 
+{% if product.nft %}
+<button
+  class="buy-button snipcart-add-item" onclick="window.open('{{ product.nft }}')">
+  Buy NFT
+</button>
+{% endif %}
+
