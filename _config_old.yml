@@ -24,24 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Loja virtual referente aos trabalhos de Lulu Space
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lojinha.marllus.com/" # the base hostname & protocol for your site, e.g. http://example.com
-defaults:
-  # Default language
-  -
-    scope:
-      path: ""
-    values:
-      lang: "pt_BR"
-      id-ref: "na"
-      baseurl: ''
-  # Language for everything inside `/en`
-  -
-    scope:
-      path: en
-    values:
-      lang: "en"
-      #coloquei essa variavel pra auxiliar o laco na pagina post.html, onde procuro traducoes disponiveis
-      id-ref: "na"
-      baseurl: "/en/"
 twitter_username: melolustosa
 #github_username:  snipcart
 
@@ -71,4 +53,3 @@ plugins:
 
 collections:
   - products
-  - productsen

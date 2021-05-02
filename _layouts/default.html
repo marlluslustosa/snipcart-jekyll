@@ -1,5 +1,13 @@
 <!DOCTYPE html>
+<!--
+mudando o sistema snipcart para ingles se a pagina estiver em /en/
+-->
+{% if page.url == "/en/" %}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% else %}
 <html lang="{{ page.lang | default: site.lang | default: "pt-BR" }}">
+{% endif %}
+
 {% include head.html %}
 <body>
   {% include header.html %}

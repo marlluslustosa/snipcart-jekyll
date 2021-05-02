@@ -1,24 +1,6 @@
 <div>
   <label for="{{ product.identifier }}-qty">Quantidade:</label>
   <input type="number" id="{{ product.identifier }}-qty" class="qty" min="1" value="1" />
-  
-  {% if product.lang == "en" %}
-  <button
-    class="buy-button snipcart-add-item"
-    data-item-quantity="1"
-    data-item-id="{{ product.identifier }}"
-    data-item-name="{{ product.name }}"
-    data-item-price="{{ product.price_en }}"
-    data-item-image="{{ product.image }}"
-    data-item-url="https://lojinha.marllus.com{{ page.url }}"
-    data-item-description="{{ product.descricao_link | remove: '<p>' | remove: '</p>' }}"
-    data-item-custom1-name="Presente"
-    data-item-custom1-type="checkbox"
-    data-item-custom2-name="Mensagem para cartão presente"
-    data-item-custom2-type="textarea">
-    Buy 1 physical art (USD{{ product.price }})
-  </button>
-  {% else %}
   <button
     class="buy-button snipcart-add-item"
     data-item-quantity="1"
@@ -34,8 +16,6 @@
     data-item-custom2-type="textarea">
     Comprar 1 obra física (R${{ product.price }})
   </button>
-  {% endif %}
-
 </div>
 
 
