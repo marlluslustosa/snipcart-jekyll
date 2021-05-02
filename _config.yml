@@ -30,7 +30,7 @@ defaults:
     scope:
       path: ""
     values:
-      lang: "pt_BR"
+      lang: "pt-BR"
       id-ref: "na"
       baseurl: ''
   # Language for everything inside `/en`
