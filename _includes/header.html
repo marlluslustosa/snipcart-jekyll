@@ -7,16 +7,35 @@
     </div>
 </div>
 -->
+{% if page.lang == "pt-BR" %}
 <header class="header">
   <div class="header__container">
     <a class="header__branding" href="/">
       <img src="/assets/images/logo_top.png" alt="" class="header__logo">
       <span class="header__title">{{ site.title }}</span>
     </a>
+
+<a class="header__branding" href="/en">
+    <img src="https://marllus.com/assets/images/translate.svg" width="31" height="27" alt="" class="header__logo">
     <div class="header__actions">
+</a>
+{% else %}
+<header class="header">
+  <div class="header__container">
+    <a class="header__branding" href="/">
+      <img src="/assets/images/logo_top.png" alt="" class="header__logo">
+      <span class="header__title">{{ site.title_en }}</span>
+    </a>
+
+<a class="header__branding" href="/">
+    <img src="https://marllus.com/assets/images/translate.svg" width="31" height="27" alt="" class="header__logo">
+    <div class="header__actions">
+</a>
+{% endif %}
 <!--
       <button class="snipcart-customer-signin login-button">My account</button>
 -->
+
       <button class="header__checkout snipcart-checkout">
         <svg width="31" height="27" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
