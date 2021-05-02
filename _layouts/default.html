@@ -18,9 +18,16 @@ mudando o sistema snipcart para ingles se a pagina estiver em /en/
   </main>
   {% include footer.html %}
 
+{% if page.url == "/en/" %}
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
+<script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+<div id="snipcart" data-config-modal-style="side" data-api-key="YThjMjUxNjUtOTljNC00YzhjLTkwMTgtYjNjOTliY2EyZDkyNjM3NDMxNTczOTI0NjQ4MjIz" data-currency="usd" hidden></div>
+{% else %}
 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
 <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
 <div id="snipcart" data-config-modal-style="side" data-api-key="YThjMjUxNjUtOTljNC00YzhjLTkwMTgtYjNjOTliY2EyZDkyNjM3NDMxNTczOTI0NjQ4MjIz" hidden></div>
+{% endif %}
+
 <!--
 	test api
 <div id="snipcart" data-config-modal-style="side" data-api-key="OTQ1OTRhNzYtM2U4Yy00NWRkLThkNGQtZGUxNmYyZjI0ODBkNjM3NDMxNTczOTI0NjQ4MjIz" hidden></div>
